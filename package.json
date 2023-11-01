@@ -1,0 +1,18 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "A server used for demonstrating creating subscriptions and storing them on the client with Recoil.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "string_decoder": "1.3.0",
+    "ws": "7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
